@@ -9,17 +9,17 @@ I'm not a professional developer and just cobbled this together to solve a speci
 
 ## ABOUT THE CODE
 
-I wanted to find a function that was lightweight and checked locally the billing email address domain against a blacklist or temporary or throwaway emails. There didn't seem to be one and the paid for plugins seemed hugely bloated and expensive and relied on connecting to a thrid party website. I wasn't comfortable with potentially sending customer data from checkout to checked against an external list.
+I wanted to find a function that was lightweight and checked locally the billing email address domain against a blacklist of temporary or throwaway emails. There didn't seem to be one and the paid for plugins seemed bloated, expensive and relied on connecting to a thrid party website. I wasn't comfortable with potentially sending customer data from checkout to be checked against an external list – **this is probably isn't how these plugins work!**
 
 This code was possible because of the work of two other developers, who had written two pieces of functionality for different purposes.
 
-Firstly Tristan Kappel's code to check woocommerce registration emails against a blacklist gave me half of the functionality I needed
+Firstly [Tristan Kappel's](https://tristankappel.com/) code to check woocommerce registration emails against a blacklist gave me half of the functionality I needed
 https://tristankappel.com/how-to-make-a-woocommerce-registration-email-blacklist/
 
-Secondly the work of Wigster with his simple plugin to check a specific domain gave me the checkout specific code required
+Secondly the work of [Wigster](https://profiles.wordpress.org/wigster/) with his simple plugin to check a specific spam domain gave me the woocommerce checkout specific code required
 https://wordpress.org/plugins/block-specific-spam-woo-orders/
 
-The other bits like opening the blacklist from github are pretty standard php code.
+The other bits like opening the blacklist file from github are pretty standard php code.
 
 ## Areas for improvement:
 - Creating a fallback in case the connection to github can't be made
