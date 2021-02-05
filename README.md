@@ -3,7 +3,9 @@ A simple function to read a list of blacklisted email domains and check the bill
 
 ## DISCLAIMER
 
-The code is supplied as is and it I don't offer any support. I'm not a professional developer and just cobbled this together to solve a specific usecase. It works from the testing I've done. But I can't guarantee that it is fail safe or exhaustive or won't break your site. Only use the code if you know what you're doing or are prepared to take a risk.
+**The code is supplied as is and it I don't offer any support**.
+
+I'm not a professional developer and just cobbled this together to solve a specific usecase. It works from the testing I've done. But I can't guarantee that it is fail safe or exhaustive or won't break your site. Only use the code if you know what you're doing or are prepared to take a risk.
 
 ## ABOUT THE CODE
 
